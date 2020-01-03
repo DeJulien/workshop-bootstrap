@@ -13,6 +13,7 @@ crossorigin="anonymous">
   </head>
   <body>
   <!-- TODO -->
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">LOGO</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +33,60 @@ crossorigin="anonymous">
       </ul>
     </div>
   </nav>
-    
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-light">Ajouter un nouveau Collaborateur</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Les collaborateurs</h1>
+            </div>
+        </div>
+        <form action="/send" method="get">
+            <div class="row">
+                <div class="col">
+                    <label for="name">Rechercher un nom ou un prénom qui commence par</label>
+                </div>
+                <div class="col">
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="col">
+                    <button type="submit" class="btn btn-light">rechercher</button>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input position-static" type="checkbox" id="check" value="option1" aria-label="...">
+                        <label for="check">Voir les collaborateur désactivé</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="filtre">filtrer par département</label>
+                </div>
+                <div class="col-9">
+                    <select name="channel" id="channel">
+                        <option value="tous">Tous</option>
+                        <option value="compt">Comptabilité</option>
+                        <option value="rh">Ressources Humaine</option>
+                        <option value="info">Informatique</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+
+  </main>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-
