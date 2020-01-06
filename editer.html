@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+crossorigin="anonymous">
+  <title>SGP - Accueil</title>
+  </head>
+  <body>
+  <!-- TODO -->
+  <!--TP 1 navigation-->  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">LOGO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Collaborateur</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Statistiques</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Activité</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<main>
+  <form>
+   
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+            Photo
+        </div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col">
+              <h2>Nom Prenom - Matricule</h2>
+            </div>
+            <div class="col">
+              <input class="form-check-input position-static" type="checkbox" id="check" value="option1" aria-label="...">
+               <label for="check">désactiver</label>
+             </div>
+          </div>
+            <div class="row">
+              <div class="col">
+                <p>
+                  <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#id" aria-expanded="false" aria-controls="collapseExample">
+                    Identité
+                  </button>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="collapse" id="id">
+                  <div class="card card-body">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <label for="civ">Civilité</label>
+                        </div>
+                        <div class="col">
+                          <select name="channel" id="channel">
+                            <option value="monsieur">Monsieur</option>
+                            <option value="madame">Madame</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <label for="nom">Nom</label>
+                        </div>
+                        <div class="col">
+                          <input type="text" name="nom" id="nom">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <label for="prenom">Prenom</label>
+                        </div>
+                        <div class="col">
+                          <input type="text" name="prenom" id="prenom">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <label for="naissance">Date de naissance</label>
+                        </div>
+                        <div class="col">
+                          <input type="text" name="naissance" id="naissance">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <label for="adr">adresse</label>
+                        </div>
+                        <div class="col">
+                          <input type="text" name="adr" id="adr">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <label for="nss">Numéro de sécurité sociale</label>
+                        </div>
+                        <div class="col">
+                          <input type="text" name="nss" id="nss">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <label for="tel">Téléphone</label>
+                        </div>
+                        <div class="col">
+                          <input type="text" name="tel" id="tel">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <p>
+                  <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#poste" aria-expanded="false" aria-controls="collapseExample">
+                    Poste
+                  </button>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="collapse" id="poste">
+                  <div class="card card-body">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <label for="dep">Département</label>
+                        </div>
+                        <div class="col">
+                          <input type="text" name="dep" id="dep">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <label for="depNom">Nom</label>
+                        </div>
+                        <div class="col">
+                          <input type="text" name="depNom" id="depNom">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <p>
+                  <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#banque" aria-expanded="false" aria-controls="collapseExample">
+                    Coordonnées bancaires
+                  </button>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="collapse" id="banque">
+                  <div class="card card-body">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <label for="iban">IBAN</label>
+                        </div>
+                        <div class="col">
+                          <input type="text" name="iban" id="iban">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <label for="bic">BIC</label>
+                        </div>
+                        <div class="col">
+                          <input type="text" name="bic" id="bic">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col"></div>
+              <div class="col"><button type="submit" class="btn btn-light">Sauvegarder</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </form>
+</main>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-
+J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
+</body>
+</html>
